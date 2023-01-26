@@ -1,0 +1,13 @@
+﻿
+
+namespace Entities.Entity
+{
+    public class Category
+    {
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        
+        //Navigation
+        public List<Food> Foods { get; set; }
+    }
+}
